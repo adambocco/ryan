@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+$primary : rgb(1,1,1);
+
+body {
+    margin: 0 !important;
+    background-color: $primary;
+    
+}
+
+
+
+.success {
+    color: rgb(46, 100, 46);
+}
+
+.fail {
+    color: rgb(138, 47, 47);
+}
+.m-1 {
+    margin: 1em;
+}

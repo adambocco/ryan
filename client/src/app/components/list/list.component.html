@@ -1,0 +1,13 @@
+
+<h3>Subscribers: </h3>
+<div *ngIf="showSuccess" class="success">
+    User Deleted: <b>{{ deletedUser?.email }}</b>
+</div>
+
+<app-user-item (updateEvent)="updateUsers($event)" 
+                *ngFor="let user of users; trackBy: trackUsers" 
+                [user]="user">
+</app-user-item>
+<div *ngIf="users.length < 1" class="m-1">
+    No Entries
+</div>

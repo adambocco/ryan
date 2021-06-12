@@ -1,0 +1,16 @@
+header {
+    display:flex;
+    justify-content: space-between;
+    background-color:antiquewhite;
+    
+    h2 {
+        padding: 0 1em;
+    }
+    ul {
+        display:flex;
+        li {
+            margin: 1em;
+            list-style:none;
+        }
+    }
+}

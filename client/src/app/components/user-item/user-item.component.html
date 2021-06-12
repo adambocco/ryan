@@ -1,0 +1,14 @@
+<div class="user-container">
+
+    <div>
+        <p>Name: <b>{{ user.name }}</b></p>
+        <p>Email: <b>{{ user.email }}</b></p>
+        <p>Created On:
+            <b>{{ user.created_on | date: 'dd/MM/yyy'}}</b>
+            at
+            <b>{{ user.created_on | date: 'hh:mm:ss a' }}</b>
+        </p>
+    </div>
+    <div><button (click)="deleteUser()">Delete</button></div>
+    
+</div>
