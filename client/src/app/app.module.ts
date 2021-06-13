@@ -9,7 +9,9 @@ import { AddComponent } from './components/add/add.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { UserItemComponent } from './components/user-item/user-item.component';
-import { ChatboxComponent } from './components/chatbox/chatbox.component'
+import { ChatboxComponent } from './components/chatbox/chatbox.component';
+import { LoginComponent } from './auth/components/login/login.component';
+import { RegisterComponent } from './auth/components/register/register.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { ChatboxComponent } from './components/chatbox/chatbox.component'
     HeaderComponent,
     AddComponent,
     UserItemComponent,
-    ChatboxComponent
+    ChatboxComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

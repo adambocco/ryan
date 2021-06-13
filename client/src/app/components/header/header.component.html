@@ -1,12 +1,24 @@
 
 <header>
         <h2>{{ title }}</h2>
+        <h4 *ngIf="user">{{ user.email }}</h4>
         <ul>
           <li>
             <a href="#" routerLink="/">Display Submissions</a>
           </li>
           <li>
             <a href="#" routerLink="/add">Add a User</a>
+          </li>
+
+          <li>
+            <a href="#" routerLink="/chat">Chatroom</a>
+          </li>
+
+          <li>
+            <a href="#" routerLink="/login">Login</a>
+          </li>
+          <li>
+            <a href="#" routerLink="/register">Register</a>
           </li>
         </ul>    
 </header>
